@@ -1,0 +1,275 @@
+/* line 1, ../SCSS/_colors.scss */
+.color_palette {
+  width: 180px;
+  height: 100px;
+  border: none;
+  margin-right: 6px;
+  margin-bottom: 50px;
+  float: left;
+}
+/* line 9, ../SCSS/_colors.scss */
+.color_palette.color_palette__red {
+  background: red;
+}
+/* line 13, ../SCSS/_colors.scss */
+.color_palette.color_palette__green {
+  background: lime;
+}
+/* line 17, ../SCSS/_colors.scss */
+.color_palette.color_palette__yellow {
+  background: #fff200;
+}
+/* line 21, ../SCSS/_colors.scss */
+.color_palette.color_palette__magenta {
+  background: #f833ff;
+}
+/* line 25, ../SCSS/_colors.scss */
+.color_palette.color_palette__ciano {
+  background: cyan;
+}
+/* line 29, ../SCSS/_colors.scss */
+.color_palette.color_palette__black {
+  background: #0a0a0a;
+  margin-left: 390px;
+  margin-right: 390px;
+}
+/* line 35, ../SCSS/_colors.scss */
+.color_palette.color_palette__box_red {
+  background: #bbb5ae;
+  border: 5px solid red;
+  margin-right: 2px;
+}
+/* line 41, ../SCSS/_colors.scss */
+.color_palette.color_palette__box_green {
+  background: #bbb5ae;
+  border: 5px solid lime;
+  margin-right: 2px;
+}
+/* line 47, ../SCSS/_colors.scss */
+.color_palette.color_palette__box_yellow {
+  background: #bbb5ae;
+  border: 5px solid #fff200;
+  margin-right: 2px;
+}
+/* line 53, ../SCSS/_colors.scss */
+.color_palette.color_palette__box_magenta {
+  background: #bbb5ae;
+  border: 5px solid #f833ff;
+  margin-right: 2px;
+}
+/* line 59, ../SCSS/_colors.scss */
+.color_palette.color_palette__box_ciano {
+  background: #bbb5ae;
+  border: 5px solid cyan;
+  margin-right: 2px;
+}
+
+/* line 67, ../SCSS/_colors.scss */
+.size {
+  width: 480px;
+  height: 400px;
+  background: #bbb5ae;
+  border: 5px solid #fff200;
+  margin-left: 240px;
+}
+
+/* line 75, ../SCSS/_colors.scss */
+.text_inside {
+  margin: 30px 35px 0px 35px;
+}
+
+/* line 1, ../SCSS/_headings.scss */
+* {
+  font-family: Orator Std;
+  text-align: center;
+}
+
+/* line 6, ../SCSS/_headings.scss */
+.typography {
+  border: 3px solid #0a0a0a;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* line 12, ../SCSS/_headings.scss */
+h1 {
+  font-size: 32px;
+}
+
+/* line 16, ../SCSS/_headings.scss */
+h2 {
+  font-size: 24px;
+}
+
+/* line 20, ../SCSS/_headings.scss */
+h3 {
+  font-size: 16px;
+}
+
+/* line 24, ../SCSS/_headings.scss */
+h4 {
+  font-size: 14px;
+}
+
+/* line 28, ../SCSS/_headings.scss */
+.logo {
+  margin-top: 50px;
+}
+
+/* line 32, ../SCSS/_headings.scss */
+a {
+  color: #0a0a0a;
+  text-decoration: none;
+}
+
+/* line 37, ../SCSS/_headings.scss */
+.titles_hidden {
+  display: none;
+  background: #0a0a0a;
+  z-index: 10;
+  font-size: 18px;
+  position: absolute;
+  width: 240px;
+  text-align: center;
+}
+/* line 46, ../SCSS/_headings.scss */
+.titles_hidden.titles_hidden__tales {
+  color: red;
+  width: 320px;
+}
+/* line 51, ../SCSS/_headings.scss */
+.titles_hidden.titles_hidden__news {
+  color: lime;
+}
+/* line 55, ../SCSS/_headings.scss */
+.titles_hidden.titles_hidden__story {
+  color: #fff200;
+}
+/* line 59, ../SCSS/_headings.scss */
+.titles_hidden.titles_hidden__backgroundinfo {
+  color: cyan;
+  width: 350px;
+  margin-left: -55px;
+}
+
+/* line 66, ../SCSS/_headings.scss */
+.titles_showing:hover .titles_hidden {
+  display: block;
+}
+
+/* line 70, ../SCSS/_headings.scss */
+a:hover {
+  color: #0a0a0a;
+}
+
+/* line 74, ../SCSS/_headings.scss */
+.tales_big {
+  width: 320px;
+  height: 50px;
+  background: red;
+  line-height: 50px;
+  margin-top: 50px;
+  padding-top: 3px;
+}
+
+/* line 83, ../SCSS/_headings.scss */
+.titles_big {
+  width: 240px;
+  height: 50px;
+  margin-top: 50px;
+  line-height: 60px;
+}
+/* line 90, ../SCSS/_headings.scss */
+.titles_big.titles_big__news {
+  background: lime;
+  margin-top: 150px;
+}
+/* line 95, ../SCSS/_headings.scss */
+.titles_big.titles_big__story {
+  background: #fff200;
+}
+/* line 99, ../SCSS/_headings.scss */
+.titles_big.titles_big__contact {
+  background: #f833ff;
+}
+/* line 103, ../SCSS/_headings.scss */
+.titles_big.titles_big__backgroundinfo {
+  background: cyan;
+}
+
+/* line 1, ../SCSS/_button.scss */
+.button {
+  margin-top: 100px;
+}
+
+/* line 5, ../SCSS/_button.scss */
+.buy {
+  width: 200px;
+  height: 70px;
+  background: #d6d6d6;
+  border: none;
+  margin: 50px 380px 50px 380px;
+  padding-top: 10px;
+}
+
+/* line 1, ../SCSS/_footer.scss */
+footer {
+  height: 30px;
+  background: #5c5c5c;
+  padding-top: 8px;
+  margin-top: 150px;
+}
+
+/* line 7, ../SCSS/main.scss */
+body {
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #000;
+}
+
+/* line 13, ../SCSS/main.scss */
+.container {
+  width: 960px !important;
+}
+
+/* line 18, ../SCSS/main.scss */
+.title {
+  border: 3px solid black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* line 24, ../SCSS/main.scss */
+.clearfix:after, article:after {
+  content: " ";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  font-size: 0;
+}
+
+/* line 33, ../SCSS/main.scss */
+.clearfix, article {
+  display: inline-block;
+}
+
+/* line 37, ../SCSS/main.scss */
+* html .clearfix, * html article {
+  height: 1%;
+}
+
+/* line 41, ../SCSS/main.scss */
+.clearfix, article {
+  display: block;
+}
+
+/* line 49, ../SCSS/main.scss */
+ul {
+  list-style: none;
+}
+
+/* line 53, ../SCSS/main.scss */
+a {
+  text-decoration: none;
+}
