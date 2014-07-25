@@ -71,20 +71,23 @@ a:hover {
 	color: $black;
 }
 
-.tales_big {
-	width: 320px;
-	height: 50px;
-	background: $tales;
-	line-height: 50px;
-	margin-top: 50px;
-	padding-top: 3px;
-	}
-
 .titles_big {
 	width: 240px;
 	height: 50px;
 	margin-top: 50px;
 	line-height: 60px;
+
+	&.titles_big__tales {
+		width: 320px;
+		background: $tales;
+		line-height: 50px;
+		margin-top: 50px;
+		padding-top: 3px;
+	}
+
+	&.titles_big__tales {
+		background: $tales;
+	}
 
 
 	&.titles_big__news {
@@ -102,6 +105,36 @@ a:hover {
 
 	&.titles_big__backgroundinfo {
 		background: $backgroundinfo;
+	}
+}
+
+.nav_button {
+	width: 160px;
+	height: 35px;
+	margin-top: 10px;
+	padding-top: 12px;
+	font-size: 18px;
+	float: right;
+
+	&.nav_button__tales {
+		background: $tales;
+	}
+
+	&.nav_button__news {
+		background: $news;
+	}
+
+	&.nav_button__story {
+		background: $story;	
+	}
+
+	&.nav_button__contact {
+		background: $contact;
+	}
+
+	&.nav_button__backgroundinfo {
+		background: $backgroundinfo;
+		font-size: 17px;
 	}
 }
 

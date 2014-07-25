@@ -39,7 +39,7 @@ function createNavFromArray($pages){
   	}
 
     $nav .= "\n\t<li class='".$class." ".$slug."'>
-      <h2 class='titles_big titles_big__".$slug."'>
+      <h2 class='nav_button nav_button__".$slug."'>
     			<a href='index.php?page=".$slug."'>"
       			.$pageName."</a></h2></li>";
   }

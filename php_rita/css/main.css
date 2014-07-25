@@ -163,38 +163,71 @@ a:hover {
 }
 
 /* line 74, ../SCSS/_headings.scss */
-.tales_big {
-  width: 320px;
-  height: 50px;
-  background: red;
-  line-height: 50px;
-  margin-top: 50px;
-  padding-top: 3px;
-}
-
-/* line 83, ../SCSS/_headings.scss */
 .titles_big {
   width: 240px;
   height: 50px;
   margin-top: 50px;
   line-height: 60px;
 }
-/* line 90, ../SCSS/_headings.scss */
+/* line 80, ../SCSS/_headings.scss */
+.titles_big.titles_big__tales {
+  width: 320px;
+  background: red;
+  line-height: 50px;
+  margin-top: 50px;
+  padding-top: 3px;
+}
+/* line 88, ../SCSS/_headings.scss */
+.titles_big.titles_big__tales {
+  background: red;
+}
+/* line 93, ../SCSS/_headings.scss */
 .titles_big.titles_big__news {
   background: lime;
   margin-top: 150px;
 }
-/* line 95, ../SCSS/_headings.scss */
+/* line 98, ../SCSS/_headings.scss */
 .titles_big.titles_big__story {
   background: #fff200;
 }
-/* line 99, ../SCSS/_headings.scss */
+/* line 102, ../SCSS/_headings.scss */
 .titles_big.titles_big__contact {
   background: #f833ff;
 }
-/* line 103, ../SCSS/_headings.scss */
+/* line 106, ../SCSS/_headings.scss */
 .titles_big.titles_big__backgroundinfo {
   background: cyan;
+}
+
+/* line 111, ../SCSS/_headings.scss */
+.nav_button {
+  width: 160px;
+  height: 35px;
+  margin-top: 10px;
+  padding-top: 12px;
+  font-size: 18px;
+  float: right;
+}
+/* line 119, ../SCSS/_headings.scss */
+.nav_button.nav_button__tales {
+  background: red;
+}
+/* line 123, ../SCSS/_headings.scss */
+.nav_button.nav_button__news {
+  background: lime;
+}
+/* line 127, ../SCSS/_headings.scss */
+.nav_button.nav_button__story {
+  background: #fff200;
+}
+/* line 131, ../SCSS/_headings.scss */
+.nav_button.nav_button__contact {
+  background: #f833ff;
+}
+/* line 135, ../SCSS/_headings.scss */
+.nav_button.nav_button__backgroundinfo {
+  background: cyan;
+  font-size: 17px;
 }
 
 /* line 1, ../SCSS/_button.scss */
@@ -220,26 +253,26 @@ footer {
   margin-top: 150px;
 }
 
-/* line 7, ../SCSS/main.scss */
+/* line 8, ../SCSS/main.scss */
 body {
   margin: 0 auto;
   margin-top: 50px;
   background-color: #000;
 }
 
-/* line 13, ../SCSS/main.scss */
+/* line 14, ../SCSS/main.scss */
 .container {
   width: 960px !important;
 }
 
-/* line 18, ../SCSS/main.scss */
+/* line 19, ../SCSS/main.scss */
 .title {
   border: 3px solid black;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-/* line 24, ../SCSS/main.scss */
+/* line 25, ../SCSS/main.scss */
 .clearfix:after, article:after {
   content: " ";
   display: block;
@@ -249,27 +282,27 @@ body {
   font-size: 0;
 }
 
-/* line 33, ../SCSS/main.scss */
+/* line 34, ../SCSS/main.scss */
 .clearfix, article {
   display: inline-block;
 }
 
-/* line 37, ../SCSS/main.scss */
+/* line 38, ../SCSS/main.scss */
 * html .clearfix, * html article {
   height: 1%;
 }
 
-/* line 41, ../SCSS/main.scss */
+/* line 42, ../SCSS/main.scss */
 .clearfix, article {
   display: block;
 }
 
-/* line 49, ../SCSS/main.scss */
+/* line 50, ../SCSS/main.scss */
 ul {
   list-style: none;
 }
 
-/* line 53, ../SCSS/main.scss */
+/* line 54, ../SCSS/main.scss */
 a {
   text-decoration: none;
 }
