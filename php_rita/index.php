@@ -36,7 +36,44 @@ Remember, you can include html and css in the head of the page.
 echo "<!DOCTYPE html>";
 echo "<html>";
  
-require_once('includes/head.php');
+ require_once('includes/head.php');
+
+ // if (isset($_GET["page"])) {
+
+
+ //      $title_page = "includes/head_".$_GET["page"].".php";
+
+ //      if (file_exists ($title_page)) {
+
+ //          switch ($title_page) {
+ //        case '1':
+ //           echo "Tales of Poe";
+ //           break;
+ //        case '2':
+ //            echo "News";
+ //            break;
+ //        case '3':
+ //            echo "Story";
+ //            break;
+ //        case '4':
+ //            echo "Contact";
+ //            break;
+ //        case '5':
+ //            echo "Background Info";
+ //            break;   
+         
+ //         default:
+ //           echo "Tales of Poe";
+ //           break;
+ //       }
+       
+ //      }
+
+ //      else {
+ //        require_once ('includes/content_404.php');
+ //      }
+ //  }
+
  
 echo "<body>";
  
