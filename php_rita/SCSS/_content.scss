@@ -12,6 +12,11 @@
 		height: 1410px;
 	}
 
+	&.context__shop {
+		border: 10px solid $news;
+		height: 1650px;
+	}
+
 	&.context__story {
 		border: 10px solid $story;
 		height: 550px;
@@ -50,6 +55,7 @@
 
 	&.page_name__backgroundinfo {
 		color: $backgroundinfo;
+		font-size: 27px;
 	}
 }
 
@@ -64,8 +70,29 @@ iframe {
 	font-size: 20px;
 }
 
+.plot {
+	width:480px;
+	height: 400px;
+	font-size: 18px;
+	margin-top: 30px;
+	padding-top: 0px;
+	padding-right: 10px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
 
+.img_shop {
+	width: 100%;
+	margin-top: 40px;
+}
 
+.text_shop {
+	margin-top: 60px;
+}
+
+video {
+    margin-top: 70px;
+}
 
 
 

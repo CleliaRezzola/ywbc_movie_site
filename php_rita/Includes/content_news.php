@@ -2,7 +2,7 @@
 	
 	<div class="row">
 		<div class="col-md-7 context__ context__news"> 
-			<div class="row page_name page_name__news">News - <a href="content_shop.php">Shop</a> </div>
+			<div class="row page_name page_name__news">News - <a href="index.php?page=shop">Shop</a></div>
 			
 			<div class="row text">
 				<p>Tales of Poe Kickstarter finishing funds!</p></br>
@@ -14,11 +14,10 @@
 				<p> - </p> </br>
 				<p>August 20th, 2014, Tales of Poe will have it’s World Premiere at the Egyptian Theater in Hollywood, CA.</p></br>
 				<p> - </p> </br>
-				<p>August 19th, 2014, Tales of Poe will have an official free poster signing at Dark Delicacies in Los Angeles. Guests include: Caroline William’s, Adrienne King, Randy Jones, Bette Cassat, Amy Steel, Alan Rowe Kelly, Cartier Williams, Brewster McCall, Bart Mastronardi and more to be announced.</p></br>
+				<p>August 19th, 2014, Tales of Poe will have an official free poster signing at Dark Delicacies in Los Angeles. Guests include: Caroline William's, Adrienne King, Randy Jones, Bette Cassat, Amy Steel, Alan Rowe Kelly, Cartier Williams, Brewster McCall, Bart Mastronardi and more to be announced.</p></br>
 				<p> - </p> </br>
 				<p>More news and giveaways on July 13th.</p>
 			</div>
-
 
 		</div>
 		<div class="col-md-1 col-md-offset-1"><a href="index.php"><img class="logo" src="logo.jpg"/></a></div>

@@ -85,44 +85,53 @@
 }
 
 /* line 6, ../SCSS/_headings.scss */
+.popup {
+  visibility: hidden;
+}
+/* line 9, ../SCSS/_headings.scss */
+.popup.show {
+  visibility: visible;
+}
+
+/* line 14, ../SCSS/_headings.scss */
 .typography {
   border: 3px solid #0a0a0a;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-/* line 12, ../SCSS/_headings.scss */
+/* line 20, ../SCSS/_headings.scss */
 h1 {
   font-size: 32px;
 }
 
-/* line 16, ../SCSS/_headings.scss */
+/* line 24, ../SCSS/_headings.scss */
 h2 {
   font-size: 24px;
 }
 
-/* line 20, ../SCSS/_headings.scss */
+/* line 28, ../SCSS/_headings.scss */
 h3 {
   font-size: 16px;
 }
 
-/* line 24, ../SCSS/_headings.scss */
+/* line 32, ../SCSS/_headings.scss */
 h4 {
   font-size: 14px;
 }
 
-/* line 28, ../SCSS/_headings.scss */
+/* line 36, ../SCSS/_headings.scss */
 .logo {
   margin-top: 50px;
 }
 
-/* line 32, ../SCSS/_headings.scss */
+/* line 40, ../SCSS/_headings.scss */
 a {
   color: #0a0a0a;
   text-decoration: none;
 }
 
-/* line 37, ../SCSS/_headings.scss */
+/* line 45, ../SCSS/_headings.scss */
 .titles_hidden {
   display: none;
   background: #0a0a0a;
@@ -132,44 +141,44 @@ a {
   width: 240px;
   text-align: center;
 }
-/* line 46, ../SCSS/_headings.scss */
+/* line 54, ../SCSS/_headings.scss */
 .titles_hidden.titles_hidden__tales {
   color: red;
   width: 320px;
 }
-/* line 51, ../SCSS/_headings.scss */
+/* line 59, ../SCSS/_headings.scss */
 .titles_hidden.titles_hidden__news {
   color: lime;
 }
-/* line 55, ../SCSS/_headings.scss */
+/* line 63, ../SCSS/_headings.scss */
 .titles_hidden.titles_hidden__story {
   color: #fff200;
 }
-/* line 59, ../SCSS/_headings.scss */
+/* line 67, ../SCSS/_headings.scss */
 .titles_hidden.titles_hidden__backgroundinfo {
   color: cyan;
   width: 350px;
   margin-left: -55px;
 }
 
-/* line 66, ../SCSS/_headings.scss */
+/* line 74, ../SCSS/_headings.scss */
 .titles_showing:hover .titles_hidden {
   display: block;
 }
 
-/* line 70, ../SCSS/_headings.scss */
+/* line 78, ../SCSS/_headings.scss */
 a:hover {
   color: #0a0a0a;
 }
 
-/* line 74, ../SCSS/_headings.scss */
+/* line 82, ../SCSS/_headings.scss */
 .titles_big {
   width: 240px;
   height: 50px;
   margin-top: 50px;
   line-height: 60px;
 }
-/* line 80, ../SCSS/_headings.scss */
+/* line 88, ../SCSS/_headings.scss */
 .titles_big.titles_big__tales {
   width: 320px;
   background: red;
@@ -177,29 +186,29 @@ a:hover {
   margin-top: 50px;
   padding-top: 3px;
 }
-/* line 88, ../SCSS/_headings.scss */
+/* line 96, ../SCSS/_headings.scss */
 .titles_big.titles_big__tales {
   background: red;
 }
-/* line 93, ../SCSS/_headings.scss */
+/* line 101, ../SCSS/_headings.scss */
 .titles_big.titles_big__news {
   background: lime;
   margin-top: 150px;
 }
-/* line 98, ../SCSS/_headings.scss */
+/* line 106, ../SCSS/_headings.scss */
 .titles_big.titles_big__story {
   background: #fff200;
 }
-/* line 102, ../SCSS/_headings.scss */
+/* line 110, ../SCSS/_headings.scss */
 .titles_big.titles_big__contact {
   background: #f833ff;
 }
-/* line 106, ../SCSS/_headings.scss */
+/* line 114, ../SCSS/_headings.scss */
 .titles_big.titles_big__backgroundinfo {
   background: cyan;
 }
 
-/* line 111, ../SCSS/_headings.scss */
+/* line 119, ../SCSS/_headings.scss */
 .nav_button {
   width: 160px;
   height: 35px;
@@ -208,23 +217,23 @@ a:hover {
   font-size: 18px;
   float: right;
 }
-/* line 119, ../SCSS/_headings.scss */
+/* line 127, ../SCSS/_headings.scss */
 .nav_button.nav_button__tales {
   background: red;
 }
-/* line 123, ../SCSS/_headings.scss */
+/* line 131, ../SCSS/_headings.scss */
 .nav_button.nav_button__news {
   background: lime;
 }
-/* line 127, ../SCSS/_headings.scss */
+/* line 135, ../SCSS/_headings.scss */
 .nav_button.nav_button__story {
   background: #fff200;
 }
-/* line 131, ../SCSS/_headings.scss */
+/* line 139, ../SCSS/_headings.scss */
 .nav_button.nav_button__contact {
   background: #f833ff;
 }
-/* line 135, ../SCSS/_headings.scss */
+/* line 143, ../SCSS/_headings.scss */
 .nav_button.nav_button__backgroundinfo {
   background: cyan;
   font-size: 17px;
@@ -250,7 +259,7 @@ footer {
   height: 30px;
   background: #5c5c5c;
   padding-top: 8px;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 /* line 1, ../SCSS/_content.scss */
@@ -269,53 +278,59 @@ footer {
   height: 1410px;
 }
 /* line 15, ../SCSS/_content.scss */
+.context__.context__shop {
+  border: 10px solid lime;
+  height: 1650px;
+}
+/* line 20, ../SCSS/_content.scss */
 .context__.context__story {
   border: 10px solid #fff200;
   height: 550px;
 }
-/* line 20, ../SCSS/_content.scss */
+/* line 25, ../SCSS/_content.scss */
 .context__.context__contact {
   border: 10px solid #f833ff;
   height: 640px;
 }
-/* line 25, ../SCSS/_content.scss */
+/* line 30, ../SCSS/_content.scss */
 .context__.context__backgroundinfo {
   border: 10px solid cyan;
   height: 550px;
 }
 
-/* line 31, ../SCSS/_content.scss */
+/* line 36, ../SCSS/_content.scss */
 .page_name {
   font-size: 30px;
   padding-top: 30px;
 }
-/* line 35, ../SCSS/_content.scss */
+/* line 40, ../SCSS/_content.scss */
 .page_name.page_name__tales {
   color: red;
 }
-/* line 39, ../SCSS/_content.scss */
+/* line 44, ../SCSS/_content.scss */
 .page_name.page_name__news {
   color: lime;
 }
-/* line 43, ../SCSS/_content.scss */
+/* line 48, ../SCSS/_content.scss */
 .page_name.page_name__story {
   color: #fff200;
 }
-/* line 47, ../SCSS/_content.scss */
+/* line 52, ../SCSS/_content.scss */
 .page_name.page_name__contact {
   color: #f833ff;
 }
-/* line 51, ../SCSS/_content.scss */
+/* line 56, ../SCSS/_content.scss */
 .page_name.page_name__backgroundinfo {
   color: cyan;
+  font-size: 27px;
 }
 
-/* line 56, ../SCSS/_content.scss */
+/* line 62, ../SCSS/_content.scss */
 iframe {
   margin-top: 50px;
 }
 
-/* line 60, ../SCSS/_content.scss */
+/* line 66, ../SCSS/_content.scss */
 .text {
   width: 450px;
   margin-left: 25px;
@@ -323,26 +338,54 @@ iframe {
   font-size: 20px;
 }
 
-/* line 9, ../SCSS/main.scss */
+/* line 73, ../SCSS/_content.scss */
+.plot {
+  width: 480px;
+  height: 400px;
+  font-size: 18px;
+  margin-top: 30px;
+  padding-top: 0px;
+  padding-right: 10px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+/* line 84, ../SCSS/_content.scss */
+.img_shop {
+  width: 100%;
+  margin-top: 40px;
+}
+
+/* line 89, ../SCSS/_content.scss */
+.text_shop {
+  margin-top: 60px;
+}
+
+/* line 93, ../SCSS/_content.scss */
+video {
+  margin-top: 70px;
+}
+
+/* line 8, ../SCSS/main.scss */
 body {
   margin: 0 auto;
   margin-top: 50px;
   background-color: #000;
 }
 
-/* line 15, ../SCSS/main.scss */
+/* line 14, ../SCSS/main.scss */
 .container {
   width: 960px !important;
 }
 
-/* line 20, ../SCSS/main.scss */
+/* line 19, ../SCSS/main.scss */
 .title {
   border: 3px solid black;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-/* line 26, ../SCSS/main.scss */
+/* line 25, ../SCSS/main.scss */
 .clearfix:after, article:after {
   content: " ";
   display: block;
@@ -352,27 +395,27 @@ body {
   font-size: 0;
 }
 
-/* line 35, ../SCSS/main.scss */
+/* line 34, ../SCSS/main.scss */
 .clearfix, article {
   display: inline-block;
 }
 
-/* line 39, ../SCSS/main.scss */
+/* line 38, ../SCSS/main.scss */
 * html .clearfix, * html article {
   height: 1%;
 }
 
-/* line 43, ../SCSS/main.scss */
+/* line 42, ../SCSS/main.scss */
 .clearfix, article {
   display: block;
 }
 
-/* line 51, ../SCSS/main.scss */
+/* line 50, ../SCSS/main.scss */
 ul {
   list-style: none;
 }
 
-/* line 55, ../SCSS/main.scss */
+/* line 54, ../SCSS/main.scss */
 a {
   text-decoration: none;
 }

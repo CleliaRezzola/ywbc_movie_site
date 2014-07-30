@@ -35,7 +35,7 @@ Remember, you can include html and css in the head of the page.
  
 echo "<!DOCTYPE html>";
 echo "<html>";
- 
+
  require_once('includes/head.php');
 
  // if (isset($_GET["page"])) {
