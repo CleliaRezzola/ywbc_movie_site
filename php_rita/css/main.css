@@ -275,12 +275,12 @@ footer {
 /* line 10, ../SCSS/_content.scss */
 .context__.context__news {
   border: 10px solid lime;
-  height: 1410px;
+  height: 550px;
 }
 /* line 15, ../SCSS/_content.scss */
 .context__.context__shop {
   border: 10px solid lime;
-  height: 1650px;
+  height: 550px;
 }
 /* line 20, ../SCSS/_content.scss */
 .context__.context__story {
@@ -327,7 +327,7 @@ footer {
 
 /* line 62, ../SCSS/_content.scss */
 iframe {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 /* line 66, ../SCSS/_content.scss */
@@ -362,6 +362,12 @@ iframe {
 }
 
 /* line 93, ../SCSS/_content.scss */
+.contact_form {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+/* line 98, ../SCSS/_content.scss */
 video {
   margin-top: 70px;
 }

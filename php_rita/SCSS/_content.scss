@@ -9,12 +9,12 @@
 
 	&.context__news {
 		border: 10px solid $news;
-		height: 1410px;
+		height: 550px;
 	}
 
 	&.context__shop {
 		border: 10px solid $news;
-		height: 1650px;
+		height: 550px;
 	}
 
 	&.context__story {
@@ -60,7 +60,7 @@
 }
 
 iframe {
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 .text {
@@ -90,10 +90,14 @@ iframe {
 	margin-top: 60px;
 }
 
+.contact_form {
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+
 video {
     margin-top: 70px;
 }
-
 
 
 

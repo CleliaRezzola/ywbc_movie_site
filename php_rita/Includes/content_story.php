@@ -18,7 +18,7 @@
 						Montresor walls up the niche, entombing his friend alive. At first, Fortunato, who sobers up faster than Montresor anticipated he would, shakes the chains, trying to escape. Fortunato then screams for help, but Montresor mocks his cries, knowing nobody can hear them. Fortunato laughs weakly and tries to pretend that he is the subject of a joke and that people will be waiting for him (including the Lady Fortunato). As the murderer finishes the topmost row of stones, Fortunato wails, "For the love of God, Montresor!" Montresor replies, "Yes, for the love of God!" He listens for a reply but hears only the jester's bells ringing. Before placing the last stone, he drops a burning torch through the gap. He claims that he feels sick at heart, but dismisses this reaction as an effect of the dampness of the catacombs.
 						In the last few sentences, Montresor reveals that in the 50 years since that night, he has never been caught, and Fortunato's body still hangs from its chains in the niche where he left it. The murderer concludes: In pace requiescat! ("May he rest in peace!")						
 					<br><br>
-					<h2>The Dreams</h2><br>
+					<h2>Dreams</h2><br>
 						Oh! that my young life were a lasting dream!<br>
 						My spirit not awakening, till the beam<br>
 						Of an Eternity should bring the morrow. <br>

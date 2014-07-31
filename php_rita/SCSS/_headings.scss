@@ -3,13 +3,13 @@
 	text-align: center;
 }
 
-.popup {
-    visibility: hidden;
+ .popup {
+     visibility: hidden;
 
     &.show {
         visibility: visible;
     }
-}
+ }
 
 .typography {
 	border: 3px solid $black;

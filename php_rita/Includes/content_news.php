@@ -4,7 +4,7 @@
 		<div class="col-md-7 context__ context__news"> 
 			<div class="row page_name page_name__news">News - <a href="index.php?page=shop">Shop</a></div>
 			
-			<div class="row text">
+			<div class="row text plot"><br>
 				<p>Tales of Poe Kickstarter finishing funds!</p></br>
 				<p> - </p> </br>
 				<p>Check out the video and receive great rewards : movie posters, autographs, T-shirts, movie tickets to the premiere and more!</p></br>
