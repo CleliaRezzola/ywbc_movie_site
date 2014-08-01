@@ -239,21 +239,6 @@ a:hover {
   font-size: 17px;
 }
 
-/* line 1, ../SCSS/_button.scss */
-.button {
-  margin-top: 100px;
-}
-
-/* line 5, ../SCSS/_button.scss */
-.buy {
-  width: 200px;
-  height: 70px;
-  background: #d6d6d6;
-  border: none;
-  margin: 50px 380px 50px 380px;
-  padding-top: 10px;
-}
-
 /* line 1, ../SCSS/_footer.scss */
 footer {
   height: 30px;
@@ -326,11 +311,20 @@ footer {
 }
 
 /* line 62, ../SCSS/_content.scss */
-iframe {
-  margin-top: 30px;
+#countdown p {
+  display: inline-block;
+  padding: 5px;
+  background: #bbb5ae;
+  margin-top: 25px;
 }
 
-/* line 66, ../SCSS/_content.scss */
+/* line 69, ../SCSS/_content.scss */
+.radio {
+  margin-top: 25px;
+  margin-left: 55px;
+}
+
+/* line 74, ../SCSS/_content.scss */
 .text {
   width: 450px;
   margin-left: 25px;
@@ -338,7 +332,7 @@ iframe {
   font-size: 20px;
 }
 
-/* line 73, ../SCSS/_content.scss */
+/* line 81, ../SCSS/_content.scss */
 .plot {
   width: 480px;
   height: 400px;
@@ -350,48 +344,48 @@ iframe {
   overflow-x: hidden;
 }
 
-/* line 84, ../SCSS/_content.scss */
+/* line 92, ../SCSS/_content.scss */
 .img_shop {
   width: 100%;
   margin-top: 40px;
 }
 
-/* line 89, ../SCSS/_content.scss */
+/* line 97, ../SCSS/_content.scss */
 .text_shop {
   margin-top: 60px;
 }
 
-/* line 93, ../SCSS/_content.scss */
+/* line 101, ../SCSS/_content.scss */
 .contact_form {
   margin-top: 80px;
   margin-bottom: 50px;
 }
 
-/* line 98, ../SCSS/_content.scss */
+/* line 106, ../SCSS/_content.scss */
 video {
   margin-top: 70px;
 }
 
-/* line 8, ../SCSS/main.scss */
+/* line 7, ../SCSS/main.scss */
 body {
   margin: 0 auto;
   margin-top: 50px;
   background-color: #000;
 }
 
-/* line 14, ../SCSS/main.scss */
+/* line 13, ../SCSS/main.scss */
 .container {
   width: 960px !important;
 }
 
-/* line 19, ../SCSS/main.scss */
+/* line 18, ../SCSS/main.scss */
 .title {
   border: 3px solid black;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-/* line 25, ../SCSS/main.scss */
+/* line 24, ../SCSS/main.scss */
 .clearfix:after, article:after {
   content: " ";
   display: block;
@@ -401,27 +395,27 @@ body {
   font-size: 0;
 }
 
-/* line 34, ../SCSS/main.scss */
+/* line 33, ../SCSS/main.scss */
 .clearfix, article {
   display: inline-block;
 }
 
-/* line 38, ../SCSS/main.scss */
+/* line 37, ../SCSS/main.scss */
 * html .clearfix, * html article {
   height: 1%;
 }
 
-/* line 42, ../SCSS/main.scss */
+/* line 41, ../SCSS/main.scss */
 .clearfix, article {
   display: block;
 }
 
-/* line 50, ../SCSS/main.scss */
+/* line 49, ../SCSS/main.scss */
 ul {
   list-style: none;
 }
 
-/* line 54, ../SCSS/main.scss */
+/* line 53, ../SCSS/main.scss */
 a {
   text-decoration: none;
 }

@@ -59,8 +59,16 @@
 	}
 }
 
-iframe {
-	margin-top: 30px;
+#countdown p {
+	display: inline-block;
+	padding: 5px;
+	background: $gray;
+	margin-top: 25px;
+}
+
+.radio {
+	margin-top: 25px;
+	margin-left: 55px;
 }
 
 .text {
@@ -98,9 +106,3 @@ iframe {
 video {
     margin-top: 70px;
 }
-
-
-
-
-
-

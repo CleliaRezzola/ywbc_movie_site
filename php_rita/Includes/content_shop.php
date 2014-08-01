@@ -3,6 +3,7 @@
 	<div class="row">
 		<div class="col-md-7 context__ context__shop"> 
 			<div class="row page_name page_name__news"><a href="index.php?page=news">News</a> - Shop</div>
+			
 			<div class="row text plot">
 				<div class="row"><h2>You can buy any of these items by contacting us.</h2><br><h3>See the form at the bottom of the page</h3>
 					<div class="col-md-5 col-md-offset-1"><img class="img_shop" src="images/T-shirt.png"/></div>
@@ -34,7 +35,7 @@
 					<div class="col-md-5 text_shop"><h3>Baby Corpse <br>$500</h3></div>
 				</div>
 
-				<form class="contact_form" method="post" action="includes/content_success.php">
+				<form class="contact_form" method="post" action="index.php?page=success">
 					<label for="firstName">First Name: </label><br>
 					<input type="text" id="firstName" name="firstName"><br><br>
 					<label for="lastName">Last Name: </label><br>

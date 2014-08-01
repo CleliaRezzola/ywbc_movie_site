@@ -1,28 +1,24 @@
 <?php
 
-
 $pages = array( );
 
 // Define pages as a 2s array
 // Slug => page name
 // Slug must be lower case, no spaces or punctuation.
 
-$pages ['tales'] = "Tales of Poe";
+  $pages ['tales'] = "Tales of Poe";
 
-$pages ['news'] = "News";
+  $pages ['news'] = "News";
 
-$pages ['story'] = "Story";
+  $pages ['story'] = "Story";
 
-$pages ['contact'] = "Contact";
+  $pages ['contact'] = "Contact";
 
-$pages ['backgroundinfo'] = "Background Info";
+  $pages ['backgroundinfo'] = "Background Info";
+
+  $footerPages = array('Legal', 'Privacy');
 
 
- 
-$footerPages = array('Legal', 'Privacy');
- 
- 
- 
 function createNavFromArray($pages){
  
   // Start creating a string of html for our nav:

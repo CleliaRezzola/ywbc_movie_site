@@ -6,6 +6,7 @@
 			<div class="row page_name page_name__story"><a href="index.php?page=story">Plot</a> - <a href="index.php?page=trailer">Trailer</a> - Team</div>
 
 				<div class="row text plot">
+
 					<div class="row"><h2>Team</h2>
 						<div class="col-md-5 col-md-offset-1"><img class="img_shop" src="images/Bart Mastronardi.png"/></div>
 						<div class="col-md-5 text_shop"><h3>Bart Mastronardi<br><br>Creator of Tales of Poe</h3></div>
@@ -97,9 +98,7 @@
 						<div class="col-md-5 col-md-offset-1"><img class="img_shop" src="images/Joe Zaso.png"/></div>
 						<div class="col-md-5 text_shop"><h3>Joe Zaso<br><br>as Graveddiger of Dreams</h3></div>
 					</div>
-
-
-
+					
 				</div>
 
 		</div>

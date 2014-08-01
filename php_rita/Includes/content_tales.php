@@ -9,6 +9,17 @@
 				World premier screening on August 20th, 2014 at the Historic Egyptian Theater in Los Angeles, CA. on Hollywood Blvd.
 			</div>
 
+			<div id="countdown">
+				<p class="days">00</p>
+				<p class="timeRefDays">days</p>
+				<p class="hours">00</p>
+				<p class="timeRefHours">hours</p>
+				<p class="minutes">00</p>
+				<p class="timeRefMinutes">minutes</p>
+				<p class="seconds">00</p>
+				<p class="timeRefSeconds">seconds</p>
+			</div>
+
 			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13215.415776670025!2d-118.33407501197112!3d34.09888189113096!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bf21613f98af%3A0x76decc4671d468dd!2sEgyptian+Theatre!5e0!3m2!1sen!2snz!4v1406601704887" width="450" height="200" frameborder="0" style="border:0"></iframe>
 		
 		</div>

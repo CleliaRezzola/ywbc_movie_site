@@ -1,5 +1,4 @@
 <?php
- 
 /*
  
 This is the index for your site!
@@ -36,68 +35,24 @@ Remember, you can include html and css in the head of the page.
 echo "<!DOCTYPE html>";
 echo "<html>";
 
- require_once('includes/head.php');
-
- // if (isset($_GET["page"])) {
-
-
- //      $title_page = "includes/head_".$_GET["page"].".php";
-
- //      if (file_exists ($title_page)) {
-
- //          switch ($title_page) {
- //        case '1':
- //           echo "Tales of Poe";
- //           break;
- //        case '2':
- //            echo "News";
- //            break;
- //        case '3':
- //            echo "Story";
- //            break;
- //        case '4':
- //            echo "Contact";
- //            break;
- //        case '5':
- //            echo "Background Info";
- //            break;   
-         
- //         default:
- //           echo "Tales of Poe";
- //           break;
- //       }
-       
- //      }
-
- //      else {
- //        require_once ('includes/content_404.php');
- //      }
- //  }
-
+  require_once('includes/head.php');
  
 echo "<body>";
- 
-// require_once('includes/header_home.php');    
- 
-
 
 // First, find out if there is even a value in $_GET['pages'] using the built in function 'is set', 
 // or isset(). If it's not set, they must be at the homepage, so require_once the 
 // includes/content-home.php . Remember that if you want the opposite of something, eg, not-equals 
 // or not-true, you can use an exclamation mark, so in this case if(!isset()){} will mean 'if NOT set'
 
-if (!isset ($_GET["page"])) {
+  if (!isset ($_GET["page"])) {
 
-	require_once('includes/home.php');
-}
-
+  	require_once('includes/home.php');
+  }
 
 // If it IS set, go into another 'if' statement, which determines if there is a content
 // file for this page in the 'includes' directory. If that file exists, require it once. 
 // You will need to concatenate  the $_GET['page'] variable with some strings to correctly 
 // point to the includes/content-??.php file.
-
-
 
   if (isset($_GET["page"])) {
 
@@ -114,7 +69,6 @@ if (!isset ($_GET["page"])) {
   		}
   }
 
-
 // If it is not the home page, and there is no content-??.php file for it, require the 
 // content-404.php file instead, and add an appropriate message.
 
@@ -125,15 +79,8 @@ if (!isset ($_GET["page"])) {
 // If you want to add a unique header or nav for the home page, you can also create logic for 
 // this purpose using the GET string, require_once, and if/else statements.
  
-require_once('includes/footer.php');
+  require_once('includes/footer.php');
  
 echo "</body>";
 echo "</html>";
-
-
-
-
-
-
-
 ?>
